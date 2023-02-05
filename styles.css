@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(63, 57, 57);;
+}
+
 .container-main {
   width: 1000px;
   margin: auto;
@@ -79,6 +83,18 @@
   .container-header {
     width: 576px;
     background-position: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-main {
+    width: 2000px;
+  }
+
+  .container-header {
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-color: rgb(63, 57, 57);
   }
 }
 
