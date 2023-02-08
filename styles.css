@@ -3,7 +3,7 @@ body {
 }
 
 .container-main {
-  width: 1000px;
+  /* width: 1000px; */
   margin: auto;
   display: grid;
   grid-template-columns: 100%;
@@ -23,6 +23,7 @@ body {
   font-family: 'Dancing Script', cursive;
   font-size: 60px;
   color: white;
+  text-align: center;
 }
 .container-articles {
   display: flex;
@@ -72,7 +73,7 @@ body {
   .container-articles {
     flex-direction: column;
     align-items: center;
-    width: 576px;
+    /* width: 576px; */
   }
 
   .article {
@@ -81,14 +82,14 @@ body {
   }
 
   .container-header {
-    width: 576px;
+    /* width: 576px; */
     background-position: center;
   }
 }
 
 @media (min-width: 992px) {
   .container-main {
-    width: 2000px;
+    /* width: 2000px; */
   }
 
   .container-header {
