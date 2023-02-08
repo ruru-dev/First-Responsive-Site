@@ -3,7 +3,6 @@ body {
 }
 
 .container-main {
-  /* width: 1000px; */
   margin: auto;
   display: grid;
   grid-template-columns: 100%;
@@ -69,11 +68,9 @@ body {
 }
 
 @media (max-width: 576px) {
-  
   .container-articles {
     flex-direction: column;
     align-items: center;
-    /* width: 576px; */
   }
 
   .article {
@@ -82,14 +79,13 @@ body {
   }
 
   .container-header {
-    /* width: 576px; */
     background-position: center;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 576px) {
   .container-main {
-    /* width: 2000px; */
+    width: 1000px;
   }
 
   .container-header {
